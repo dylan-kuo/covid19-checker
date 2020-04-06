@@ -1,5 +1,5 @@
 # COVID-19 Symptom Checker
-Command line interface based chatbot demo for screening the symptoms of coronavirus disease (COVID-19)
+Command line interface chatbot demo for screening the symptoms of coronavirus disease (COVID-19)
 
 ***
 ## Overview
