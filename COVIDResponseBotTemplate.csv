@@ -1,0 +1,24 @@
+ID,Dialog,Type,When yes,Session,When No,Session2,When Not sure,Session3,Yes Interjection,No Interjection,Not Sure Interjection,Phone number,Logic,Logic Interjection,Column1
+1,"Welcome to the AWS Medicine COVID-19 assessment tool.
+
+If you are experiencing life-threatening symptoms, call 911 immediately. This tool is not intended to be a substitute for professional medical advice, diagnosis or treatment.
+
+By using this tool, you attest that you are at least 18 years old and agree to related Terms and Conditions of Use and Privacy Policy. 
+
+Next, you'll see a series of Yes/No questions designed to evaluate your condition and provide guidance. Let's get started.
+
+Are you 18 or older? ",Question,3,,2,,3,,Got it.,Sorry!,Got it.,,,,
+2,"Unfortunately, for legal reasons, you must be at least 18 years old to use this assessment tool. Please have an adult help you if you'd like to try again. Goodbye.",Close,,,,,,,,,,,,,
+3,"Now for the next question, are you 60 or older?",Question,4,Age=60+,4,Age=18-60,4,Age=60+,OK.,OK.,OK.,,,,
+4,Have you been in contact with someone known to have coronavirus also known as COVID-19?,Question,5,COVID_Contact=True,5,COVID_Contact=False,5,COVID_Contact=True,OK.,OK.,OK.,,,,
+5,Have you been told by a public health official or your employer you may have been exposed to coronavirus also known as COVID-19?,Question,6,COVID_Exposure=True,6,COVID_Exposure=False,6,COVID_Exposure=True,"Got it. To evaluate you further, please answer these next 5 symptom-related questions.","Got it. To evaluate you further, please answer these next 5 symptom-related questions.","Got it. To evaluate you further, please answer these next 5 symptom-related questions.",,(Age== 60+ && COVID_Exposure == True),Ok,7
+6,Have you started coughing within the past few days? ,Question,7,New_Cough=True,8,New_Cough=False,7,New_Cough=True,,Great.,,,,,
+7,"Based on your symptoms, it's important that you be evaluated further. Please stay on the line while we connect you to a scheduling representative to find the next available telehealth appointment.",Transfer,,,,,,,,,,123456789,,,
+8,Do you have a fever that's 100.4 degrees Fahrenheit or higher?,Question,9,Fever=True,9,Fever=False,9,Fever=True,,,,,(New_Cough==True && Fever==True) ,Ok,7
+9,Are you experiencing new shortness of breath?,Question,10,Shortness_breath=True,10,Shortness_breath=False,10,Shortness_breath=True,,,,,(Shortness_breath==True && Fever==True) || (Shortness_breath == True && Age == 60+),Ok,7
+10,Are you experiencing new sore throat? ,Question,11,Sore_Throat=True,11,Sore_Throat=False,11,Sore_Throat=True,Just a couple more questions about recent symptoms.,Just a couple more questions about recent symptoms.,Just a couple more questions about recent symptoms.,,(Sore_Throat==True && Fever ==True),Ok,7
+11,Do you have any muscle aches?,Question,12,Muscle_Ache=True,12,Muscle_Ache=False,12,Muscle_Ache=True,,,,,(Muscle_Ache== True && Fever == True),Ok,7
+12,"Have you recently been in a skilled nursing facility, like a nursing home?",Question,13,Nurse_Facility=True,13,Nurse_Facility=False,13,Nurse_Facility=True,"Finally, a quick review of your health history.","Finally, a quick review of your health history.","Finally, a quick review of your health history.",,(Nurse_Facility==True) && ( New_Cough == True || Fever == True || Shortness_breath == True || Sore_Throat == True || Muscle_Ache == True ),Ok,7
+13,"Do you have any conditions such as Congestive Heart Disease, Kidney Disease, Liver Disease or Lung Disease?",Question,14,Heart_Conditions=True,14,Heart_Conditions=False,14,Heart_Conditions=True,,Great!,,,(Heart_Conditions==True) && ( New_Cough == True || Fever == True || Shortness_breath == True || Sore_Throat == True || Muscle_Ache == True ),Ok,
+14,Do you have a weakened immune system such as patients that have had a transplant or are receiving chemotherapy? ,Question,15,Immunocompromised=True,15,Immunocompromised=False,15,Immunocompromised=True,,,,,(Immunocompromised==True) && ( New_Cough == True || Fever == True || Shortness_breath == True || Sore_Throat == True || Muscle_Ache == True ),Ok,
+15,"Based on your responses, the best thing to do is to continue monitoring how you feel, and practice good hand hygiene and social distancing. If you develop additional symptoms, you can use this tool again or contact your doctor by phone or eCare before coming to a clinic or hospital. You may also contact the Virtual Clinic or schedule a telehealth visit through eCare. Goodbye.",Close,,,,,,,,,,,,,
