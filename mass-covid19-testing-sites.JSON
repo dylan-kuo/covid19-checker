@@ -1,0 +1,144 @@
+{
+  "testing facilities": [
+    {
+      "name": "AFC Urgent Care Swampscott",
+      "contact": "(781)790-4281",
+      "address": "450 Paradise Road Swampscott, MA 01907"
+    },
+    {
+      "name": "AFC Urgent Care Waltham",
+      "contact": "(781)412-7096",
+      "address": "1030 Main St. Waltham, MA 02451"
+    },
+    {
+      "name": "AFC Urgent Care Stoneham",
+      "contact": "(781)905-8092",
+      "address": "16 Main Street Stoneham, MA 02180"
+    },
+    {
+      "name": "AFC Urgent Care North Andover",
+      "contact": "(978)548-6843",
+      "address": "129 Turnpike St. North Andover, MA 01845"
+    },
+    {
+      "name": "AFC Urgent Care Arlington",
+      "contact": "(781)262-3260",
+      "address": "1398 Mass. Ave. , Unit#31, Arlington, MA 02474"
+    },
+    {
+      "name": "PhysicianOne Urgent Care Westwood",
+      "contact": "(781)776-4094",
+      "address": "211 University Ave, Westwood, MA 02090"
+    },
+    {
+      "name": "PhysicianOne Urgent Care Chestnut Hill",
+      "contact": "(617)608-3215",
+      "address": "1210 Boylston Street Chestnut Hill, MA 02467"
+    },
+    {
+      "name": "PhysicianOne Urgent Care Waltham",
+      "contact": "(781)736-1800",
+      "address": "1019 Trapelo Rd, Waltham, MA 02452"
+    },
+    {
+      "name": "PhysicianOne Urgent Care Medford",
+      "contact": "(781)776-4094",
+      "address": "4110 Mystic Valley Parkway Medford, MA 02155"
+    },
+    {
+      "name": "Carewell Urgent Care Tewksbury",
+      "contact": "(978)851-4683",
+      "address": "345 Main St, Tewksbury, MA 01876"
+    },
+    {
+      "name": "Carewell Urgent Care Peabody",
+      "contact": "(978)826-5950",
+      "address": "229 Andover St, Peabody, MA 01960"
+    },
+    {
+      "name": "Carewell Urgent Care Billerica",
+      "contact": "(978)362-2443",
+      "address": "510 Boston Rd, Billerica, MA 01821"
+    },
+    {
+      "name": "MedExpress Urgent Care Chicopee",
+      "contact": "(413)533-3049",
+      "address": "1505 Memorial Dr, Chicopee, MA 01020"
+    },
+    {
+      "name": "Brigham and Women's Hospital(Boston main campus)",
+      "contact": "(617)732-5500",
+      "address": "75 Francis St, Boston, MA 02115"
+    },
+    {
+      "name": "Brigham and Women's Hospital(Chestnut Hill campus)",
+      "contact": "(617)732-5500",
+      "address": "850 Boylston Street, Chestnut Hill, MA 02467"
+    },
+    {
+      "name": "Tufts Medical Center",
+      "contact": "(617)636-7216",
+      "address": "800 Washington St, Boston, MA 02111"
+    },
+    {
+      "name": "Metrowest Medical CenterFramingham",
+      "contact": "(508)383-1221",
+      "address": "115 Lincoln St,Framingham, MA 01702"
+    },
+    {
+      "name": "St Vincent Hospital at Worcester Medical Center",
+      "contact": "(508)363-6194",
+      "address": "123 Summer St, Worcester, MA 01608"
+    },
+    {
+      "name": "Baystate Medical Center",
+      "contact": "(413)794-0000",
+      "address": "759 Chestnut St, Springfield, MA 01199"
+    },
+    {
+      "name": "Berkshire Medical Center",
+      "contact": "(413)447-2000",
+      "address": "725 North St, Pittsfield, MA 01201"
+    },
+    {
+      "name": "Holy Family Haverhill",
+      "contact": "(978)374-2000",
+      "address": "140 Lincoln Avenue, Haverhill, MA 01830"
+    },
+    {
+      "name": "Morton Hospital",
+      "contact": "(508)828-7000",
+      "address": "88 Washington Street, Taunton, MA 02780"
+    },
+    {
+      "name": "Carney Hospital",
+      "contact": "(617)296-4000",
+      "address": "2100 Dorchester Ave, Dorchester, MA 02124"
+    },
+    {
+      "name": "Emerson Hospital",
+      "contact": "(978)369-1400",
+      "address": "133 Old Rd to 9 Acre Cr., Concord, MA 01742"
+    },
+    {
+      "name": "Sturdy Memorial Hospital",
+      "contact": "(508)222-5200",
+      "address": "211 Park Street, Attleboro, MA 02703"
+    },
+    {
+      "name": "Lawrence General Hospital",
+      "contact": "(978)683-4000",
+      "address": "1 General St, Lawrence, MA 01841"
+    },
+    {
+      "name": "Lowell General Hospital Saints Campus",
+      "contact": "(978)937-6000",
+      "address": "1 Hospital Dr, Lowell, MA 01852"
+    },
+    {
+      "name": "Beth Israel Deaconess Hospital Plymouth",
+      "contact": "(508)746-2000",
+      "address": "275 Sandwich Street, Plymouth, MA 02360"
+    }  
+  ]
+}

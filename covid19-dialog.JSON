@@ -1,0 +1,121 @@
+{
+	"1":{		
+		"dialog": "Hi there, I'm FauciBot!\nWelcome to COVID-19 Checker. \nIf you are experiencing life-threatening symptoms, call 911 immediately! \n\n== Disclaimer ==\nThis tool is not intended to be a substitute for professional medical advice, diagnosis or treatment.\nBy using this tool, you attest that you are at least 18 years old and agree to related Terms and Conditions of Use and Privacy Policy. \nNext, you'll see a series of Yes/No questions designed to evaluate your condition and provide guidance. \nLet's get started.\n\nFauciBot: Are you 18 or older? ",
+		"type": "Question",
+		"yes_injection": "FauciBot: Got it.",
+		"no_injection": "FauciBot: Sorry!",
+		"not_sure_injection": "FauciBot: Got it."
+    },
+	
+	"2":{		
+		"dialog": "FauciBot: Unfortunately, for legal reasons, you must be at least 18 years old to use this assessment tool. \nPlease have an adult help you if you'd like to try again or you can refer to cdc.gov for more information.",
+		"type": "Close",
+		"yes_injection": "",
+		"no_injection": "",
+		"not_sure_injection": ""	
+	},
+	
+	"3":{		
+	"dialog": "FauciBot: Now for the next question, are you 60 or older?",
+	"type": "Question",
+	"yes_injection": "FauciBot: OK.",
+	"no_injection": "FauciBot: OK.",
+	"not_sure_injection": "FauciBot: OK."	
+	},
+	
+	"4": {
+	"dialog": "FauciBot: Have you been in contact with someone known to have coronavirus also known as COVID-19?",
+	"type": "Question",
+	"yes_injection": "FauciBot: OK.",
+	"no_injection": "FauciBot: OK.",
+	"not_sure_injection": "FauciBot: OK."
+	},
+	
+	"5": {
+	"dialog": "FauciBot: Have you been told by a public health official or your employer you may have been exposed to coronavirus also known as COVID-19?",
+	"type": "Question",
+	"yes_injection": "FauciBot: Got it. To evaluate you further, please answer these next 5 symptom-related questions.",
+	"no_injection": "FauciBot: Got it. To evaluate you further, please answer these next 5 symptom-related questions.",
+	"not_sure_injection": "FauciBot: Got it. To evaluate you further, please answer these next 5 symptom-related questions."
+	},
+	
+	"6": {
+	"dialog": "FauciBot: Have you started coughing within the past few days? ",
+	"type": "Question",
+	"yes_injection": "",
+	"no_injection": "FauciBot: Great.",
+	"not_sure_injection": ""
+	},
+	
+	"7": {
+	"dialog": "Based on your responses, it seems like your situation is urgent. \nYou should go to the nearest Emergency Room. If you cannot safely get there on your own, call 911. \nIMPORTANT: You should call ahead to make sure the ER can prepare for your arrival. \nBe sure to tell them that you were potentially exposed to the coronavirus and you also have severe difficulty breathing.",
+	"type": "Transfer",
+	"yes_injection": "",
+	"no_injection": "",
+	"not_sure_injection": ""
+	},
+	
+	"8": {
+	"dialog": "FauciBot: Do you have a fever that's 100.4 degrees Fahrenheit or higher?",
+	"type": "Question",
+	"yes_injection": "",
+	"no_injection": "",
+	"not_sure_injection": ""
+	},
+	
+	"9": {
+	"dialog": "FauciBot: Are you experiencing new shortness of breath?",
+	"type": "Question",
+	"yes_injection": "",
+	"no_injection": "",
+	"not_sure_injection": ""
+	},
+	
+	"10": {
+	"dialog": "FauciBot: Are you experiencing new sore throat? ",
+	"type": "Question",
+	"yes_injection": "FauciBot: Just a couple more questions about recent symptoms.",
+	"no_injection": "FauciBot: Just a couple more questions about recent symptoms.",
+	"not_sure_injection": "FauciBot: Just a couple more questions about recent symptoms."
+	},
+	
+	"11": {
+	"dialog": "FauciBot: Do you have any muscle aches?",
+	"type": "Question",
+	"yes_injection": "",
+	"no_injection": "",
+	"not_sure_injection": ""
+	},
+	
+	"12": {
+	"dialog": "FauciBot: Have you recently been in a skilled nursing facility, like a nursing home?",
+	"type": "Question",
+	"yes_injection": "FauciBot: Finally, a quick review of your health history.",
+	"no_injection": "FauciBot: Finally, a quick review of your health history.",
+	"not_sure_injection": "FauciBot: Finally, a quick review of your health history."
+	},
+	
+	"13": {
+	"dialog": "FauciBot: Do you have any conditions such as Congestive Heart Disease, Kidney Disease, Liver Disease or Lung Disease?",
+	"type": "Question",
+	"yes_injection": "",
+	"no_injection": "FauciBot: Great!",
+	"not_sure_injection": ""
+	},
+	
+	"14": {
+	"dialog": "FauciBot: Do you have a weakened immune system such as patients that have had a transplant or are receiving chemotherapy? ",
+	"type": "Question",
+	"yes_injection": "",
+	"no_injection": "",
+	"not_sure_injection": ""
+	},
+	
+	"15": {
+	"dialog": "Based on your responses, the best thing to do is to continue monitoring how you feel, and practice good hand hygiene and social distancing.\n\nIf you develop additional symptoms, you can use this tool again or contact your doctor by phone or eCare before coming to a clinic or hospital. \nYou may also contact the Virtual Clinic or schedule a telehealth visit through eCare. Goodbye. Stay Home and stay healthy",
+	"type": "",
+	"yes_injection": "",
+	"no_injection": "",
+	"not_sure_injection": ""
+	}
+}
