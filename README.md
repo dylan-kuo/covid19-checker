@@ -30,8 +30,9 @@ Migrate the functionality and deploy it to Facebook Messenger Bot.
 Clone this repo to your local machine using `git clone https://github.com/dylan-kuo/covid19-checker.git`
 
 ## Usage
-1. Make the working directory to covid19-checker folder `cd <your path>/covid19-checker`<br />
-2. Run the python file `python covid19-checker.py`
+1. Open up your Command Prompt (You can type 'cmd' in your windows search bar)
+2. Make the working directory to covid19-checker folder `cd <your path>/covid19-checker`<br />
+3. Run the python file `python covid19-checker.py`
 
 
 ## Demo
