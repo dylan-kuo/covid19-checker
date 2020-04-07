@@ -7,7 +7,7 @@ Command line interface chatbot demo for screening the symptoms of coronavirus di
 This projct is an experimenal simulation of chatbot that works as COVID-19 screening tool which can help user understand what to do next about COVID-19.
 
 
-## Disclaimar 
+## Disclaimer 
 ```This tool is not intended to be a substitute for professional medical advice, diagnosis or treatment. Any reference to the Centers for Disease Control and Prevention does not imply endorsements by the CDC, ATSDR, HHS or the United States Government.```
 
  While this project is based on COVID-19 Protocol used with [CDC Coronavirus Self-Checker](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html), please refer to other authorized sites as below for the formal screening:
