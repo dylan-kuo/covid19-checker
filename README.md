@@ -21,12 +21,13 @@ This projct is an experimenal simulation of chatbot that works as COVID-19 scree
 * [COVID-19 Protocol](https://github.com/CDCgov/covid19healthbot/blob/master/screening_protocols/covid_19_screening_protocol_cdc_apple.pdf)
 
 
+## Future Works
+Migrate the functionality and deploy it to Facebook Messenger Bot.
+
+
 ## Installation
 ### Clone
 Clone this repo to your local machine using `git clone https://github.com/dylan-kuo/covid19-checker.git`
-
-## Future Works
-Migrate the functionality and deploy it to Facebook Messenger Bot.
 
 
 ## Demo
