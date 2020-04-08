@@ -22,7 +22,7 @@ This projct is an experimenal simulation of chatbot that works as COVID-19 scree
 
 
 ## Future Works
-Migrate the functionality and deploy it to Facebook Messenger Bot and telegram
+Migrate the functionality and deploy it to Facebook Messenger Bot and Telegram Bot.
 
 
 ## Installation
